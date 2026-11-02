@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Up & Jasa Gamer — Minion's</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="topup-page">
+
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="back-link">← Kembali ke Beranda</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="layanan-gamer.html">Layanan</a></li>
+      <li><a href="review-akun.html">Toko Akun</a></li>
+      <li><a href="layanan-gamer.html" class="active">Top Up</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <div class="topup-wrapper">
+    <div class="topup-container">
+      
+      <!-- KIRI: INFO GAME -->
+      <aside class="topup-sidebar">
+        <div class="game-header">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Garena_Free_Fire_logo.png/220px-Garena_Free_Fire_logo.png" alt="Free Fire" class="game-cover">
+          <div>
+            <h1>Free Fire</h1>
+            <span class="badge-trending">🔥 Trending</span>
+          </div>
+        </div>
+
+        <p class="game-desc">
+          Top up Diamond Free Fire dengan mudah, aman, dan instan. Proses otomatis 24 jam.
+        </p>
+
+        <div class="payment-methods">
+          <h4>Metode Pembayaran Tersedia:</h4>
+          <div class="payment-tags">
+            <span>GoPay</span>
+            <span>DANA</span>
+            <span>QRIS</span>
+            <a href="QRIS.jpeg"></a>
+            <span>OVO</span>
+            <span>BCA</span>
+            <span>ShopeePay</span>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <p>Cukup masukkan <strong>User ID</strong> Anda, pilih jumlah Diamond, pilih metode pembayaran, dan Diamond akan segera ditambahkan ke akun Anda.</p>
+        </div>
+      </aside>
+
+      <!-- KANAN: FORM & PRODUK -->
+      <main class="topup-main">
+        
+        <!-- STEP 1: ID -->
+        <div class="topup-card">
+          <div class="step-header">
+            <div class="step-num">1</div>
+            <h2>Masukkan Player ID</h2>
+          </div>
+          <div class="input-group">
+            <input type="text" id="ffId" placeholder="Masukkan Player ID (Contoh: 5363266446)" inputmode="numeric">
+            <span class="help-icon" title="Lihat di profil Free Fire Anda">?</span>
+          </div>
+          <p class="helper-text">Untuk menemukan ID Anda, klik pada ikon karakter. User ID tercantum di bawah nama karakter Anda.</p>
+        </div>
+
+        <!-- STEP 2: NOMINAL -->
+        <div class="topup-card">
+          <div class="step-header">
+            <div class="step-num">2</div>
+            <h2>Pilih Nominal Top Up</h2>
+          </div>
+
+          <h3 class="section-subtitle">Best seller kami untuk Anda</h3>
+          
+          <div class="topup-grid">
+            <!-- ITEM 1 -->
+            <div class="topup-item" data-item="12 Diamonds" data-price="Rp 1.802">
+              <span class="item-badge">⭐ BEST SELLER</span>
+              <div class="item-img">
+                <img src="https://static.wikia.nocookie.net/freefire/images/2/2d/Diamond.png/revision/latest?cb=20210817081412" alt="Diamond">
+              </div>
+              <div class="item-info">
+                <h4>12 Diamonds</h4>
+                <span class="item-price">Rp 1.802</span>
+                <span class="item-rewards">🪙 9 Rewards</span>
+              </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="topup-item" data-item="355 Diamonds" data-price="Rp 45.045">
+              <span class="item-badge">⭐ BEST SELLER</span>
+              <div class="item-img">
+                <img src="https://static.wikia.nocookie.net/freefire/images/2/2d/Diamond.png/revision/latest?cb=20210817081412" alt="Diamond">
+              </div>
+              <div class="item-info">
+                <h4>355 Diamonds</h4>
+                <span class="item-price">Rp 45.045</span>
+                <span class="item-rewards">🪙 225 Rewards</span>
+              </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="topup-item" data-item="70 Diamonds" data-price="Rp 9.009">
+              <div class="item-img">
+                <img src="https://static.wikia.nocookie.net/freefire/images/2/2d/Diamond.png/revision/latest?cb=20210817081412" alt="Diamond">
+              </div>
+              <div class="item-info">
+                <h4>70 Diamonds</h4>
+                <span class="item-price">Rp 9.009</span>
+                <span class="item-rewards">🪙 45 Rewards</span>
+              </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="topup-item" data-item="140 Diamonds" data-price="Rp 18.018">
+              <div class="item-img">
+                <img src="https://static.wikia.nocookie.net/freefire/images/2/2d/Diamond.png/revision/latest?cb=20210817081412" alt="Diamond">
+              </div>
+              <div class="item-info">
+                <h4>140 Diamonds</h4>
+                <span class="item-price">Rp 18.018</span>
+                <span class="item-rewards">🪙 90 Rewards</span>
+              </div>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="topup-item" data-item="720 Diamonds" data-price="Rp 90.090">
+              <div class="item-img">
+                <img src="https://static.wikia.nocookie.net/freefire/images/2/2d/Diamond.png/revision/latest?cb=20210817081412" alt="Diamond">
+              </div>
+              <div class="item-info">
+                <h4>720 Diamonds</h4>
+                <span class="item-price">Rp 90.090</span>
+                <span class="item-rewards">🪙 450 Rewards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- FLOATING CHECKOUT BUTTON -->
+  <div class="floating-checkout" id="checkoutBar">
+    <div class="checkout-info">
+      <span id="selectedItemText">Pilih Nominal Top Up</span>
+      <strong id="selectedPriceText">-</strong>
+    </div>
+    <button class="btn-checkout" id="btnCheckout">
+      Lanjut ke Pembayaran <span>→</span>
+    </button>
+  </div>
+
+  <footer>© 2025 Dibuat oleh Minion's.</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
